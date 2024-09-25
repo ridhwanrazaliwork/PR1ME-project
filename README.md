@@ -64,4 +64,4 @@ Query: The system will answer specific questions based on the contents of the do
 
 ### Notes:
 - All responses will be in JSON format.
-- Ensure that the `LLM_API_KEY` is set in the environment variables to connect with the Groq service for document summaries and queries.
+- Ensure that the `LLM_API_KEY` is set in the /backend/.env to connect with the Groq service for document summaries and queries.
