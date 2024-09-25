@@ -1,0 +1,15 @@
+.summary-box {
+    opacity: 0; /* Start as invisible */
+    transform: translateY(10px); /* Start slightly down */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition */
+  }
+  
+  .summary-box-enter {
+    opacity: 1; /* Fade in */
+    transform: translateY(0); /* Move to original position */
+  }
+  
+  .summary-box-active {
+    opacity: 1; /* Fully visible */
+  }
+  
